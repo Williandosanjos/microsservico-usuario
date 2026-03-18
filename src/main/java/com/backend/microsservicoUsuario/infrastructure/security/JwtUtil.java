@@ -13,9 +13,7 @@ import java.util.Date;
 public class JwtUtil {
 
     // Chave secreta usada para assinar e verificar tokens JWT
-    private final String secretKey = "sua-chave-secreta-super-segura-que-deve-ser-bem-longa";
-
-
+    private final String secretKey = "339925975ea04da49841ae274a9ee0ec";
 
     // Gera um token JWT com o nome de usuário e validade de 1 hora
     public String generateToken(String username) {
